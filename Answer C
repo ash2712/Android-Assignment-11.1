@@ -1,0 +1,4 @@
+To display information from a SQlite database, we use an interface known as Cursor. To use it, first a writable version of the 
+database is declared and the cursor is initaialized using a built in method known as rawQuery. Then built in methods like getBlob, getInt,
+getColumnIndex are used to determine the location and type of the data that is to be obtained. This data is then stored in a variable 
+which can be used later.
