@@ -1,0 +1,2 @@
+onUpgrade is basically for handling new database changes(could be new columns addition,table addition) for any new version of your app.
+It is usually used when the database structure needs to be changed.
