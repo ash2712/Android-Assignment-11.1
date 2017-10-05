@@ -1,0 +1,3 @@
+SQlite Openhelper class is mainly used to create a database and manage the various versions. This class makes it easy for
+ContentProvider implementations to be implemented during creation and/or upgrading of the table, to avoid blocking application startup with 
+long-running database upgrades.
